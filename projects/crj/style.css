@@ -1,0 +1,18 @@
+.blur
+{
+    backdrop-filter: blur(10px);
+}
+
+.animation-up-down 
+{
+    animation: MoveUpDown 1s infinite alternate;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown 
+{
+    0% { transform: translateY(0) rotate(0deg);  }
+    100% { transform: translateY(-10px) rotate(10deg); }
+}
