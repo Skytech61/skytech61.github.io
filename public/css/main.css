@@ -739,7 +739,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
-
+.disabled {
+	opacity: 0.5;
+}
+.disabled:hover {
+	cursor: not-allowed;
+}
 
 /** 
  * ===================================================================
